@@ -1,0 +1,218 @@
+<resources>
+    <string name="app_name">Adaptation Hub</string>
+    <string name="app_title">Resources on Climate Change Adaptation in Northern Ghana</string>
+    <string name="app_ver">Version 1.0</string>
+    <string name="app_dev">(By: Vide Desk - www.videdesk.com)</string>
+    <string name="app_ryt">Copyright 2017</string>
+    <string name="app_fon">+233506731380</string>
+    <string name="app_eml">ariiqx@gmail.com</string>
+    <string name="app_com">Adaptation at Scale in Semi-Arid Regions</string>
+    <string name="app_com_abr">ASSAR - Ghana</string>
+
+    <!-- Facebook application ID and custom URL scheme (app ID prefixed by 'fb'). -->
+    <string name="facebook_application_id" translatable="false">907112396137950</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb907112396137950</string>
+    <!-- Twitter consumer key and secret -->
+    <string name="twitter_consumer_key" translatable="false">qU1JA6lEUuVPHcA1cris1BAU6</string>
+    <string name="twitter_consumer_secret" translatable="false">gYii1kZ9CiKLv88bgEzjmsV2snoo56DFbGxPWRQJnrX6kLC2jd</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="txt_home">Home</string>
+    <string name="txt_keywords">Keywords</string>
+    <string name="txt_browse">Browse</string>
+    <string name="txt_faqs">FAQs</string>
+    <string name="txt_search">Search</string>
+    <string name="txt_contact_info">
+        We continue to make the app better for you.
+        Please use the form below to tell us what you expect in the next updates.
+        Your contact will be treated with the highest confidentiality and integrity.
+    </string>
+
+    <string name="txt_profile">My Profile</string>
+    <string name="txt_about">About us</string>
+    <string name="txt_invites">Invite your friends</string>
+    <string name="txt_shares">Share with friends</string>
+    <string name="txt_feedback">Send us feedback</string>
+    <string name="txt_privacy">Privacy Policy</string>
+
+    <string name="txt_name">Full Name</string>
+    <string name="txt_gender">Gender</string>
+    <string name="txt_country">Country</string>
+    <string name="txt_region_state">Region/State</string>
+    <string name="txt_location">Location</string>
+    <string name="txt_phone_info">Phone Number (eg: +233000000000)</string>
+    <string name="txt_phone">Phone Number</string>
+    <string name="txt_phone_notes">Please enter your phone number including country code.</string>
+    <string name="txt_email">Email Address</string>
+    <string name="txt_password">Password</string>
+    <string name="txt_save_continue">Save and continue</string>
+    <string name="txt_message">Message here &#8230; </string>
+    <string name="txt_send">Send</string>
+    <string name="txt_faq">Faq</string>
+    <string name="txt_num">05</string>
+
+    <string name="txt_get_in">Get In</string>
+    <string name="txt_read_more">Read More</string>
+    <string name="txt_balance">Balance</string>
+    <string name="txt_zero_bal">0.00</string>
+    <string name="txt_none">none</string>
+
+    <string name="txt_info_title">
+        Motion respects and reinforces the user as the prime mover.
+    </string>
+    <string name="txt_info_caption">
+        Components with responsive elevations may encounter other components as they move between
+        their resting elevations and dynamic elevation offsets. Because material cannot pass
+        through other material, components avoid interfering with one another any number of ways,
+        whether on a per component basis or using the entire app layout. On a component level,
+        components can move or be removed before they cause interference."
+    </string>
+
+    <string name="txt_opportunities">Opportunities</string>
+    <string name="txt_careers">Careers</string>
+    <string name="txt_scholarships">Scholarships</string>
+    <string name="txt_institutions">Institutions</string>
+
+    <string name="txt_gallery">Gallery</string>
+    <string name="txt_news">News</string>
+    <string name="txt_events">Events</string>
+
+    <string name="txt_welcome">Welcome</string>
+    <string name="txt_edit">Edit</string>
+    <string name="txt_delete">Delete</string>
+    <string name="txt_login">Login</string>
+    <string name="txt_tour">Tour</string>
+    <string name="txt_register">Register</string>
+    <string name="txt_logout">Logout</string>
+    <string name="txt_reset">Reset</string>
+    <string name="txt_role">Role</string>
+    <string name="txt_edit_profile">Edit Profile</string>
+
+    <string name="txt_create_new_account">Create new User Account now!</string>
+    <string name="txt_already_registered">Already registered. Login Me!</string>
+    <string name="txt_forgot_password">Forgot your password?</string>
+    <string name="txt_reset_password">Reset Password</string>
+    <string name="txt_cdata_back"><![CDATA[<< Back]]></string>
+    <string name="txt_coc_account">My Account</string>
+
+    <string name="txt_auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+    <string name="txt_min_pass">Password too short, enter minimum 6 characters!</string>
+    <string name="txt_info_register">
+        Please enter your legal full name, valid email address and a new password in the fields provided below to create a User Account.
+    </string>
+    <string name="txt_info_login">
+        Please enter your User Account email and password in the fields provided to sign in.
+    </string>
+    <string name="txt_conn_error">
+        You are not connected to the Internet! You need internet connection for this section to work properly.
+        Please connect and try again.
+    </string>
+    <string name="sign_in_cancelled">Sign in cancelled! You may try again.</string>
+    <string name="no_internet_connection">No Internet connection! Try again later.</string>
+    <string name="unknown_error">Sign in failed! You may try again.</string>
+
+    <string name="txt_admin_dashboard">Manage User Accounts</string>
+
+    <string name="txt_messages">Messages</string>
+    <string name="txt_files">Files</string>
+    <string name="txt_chats">Chats</string>
+    <string name="txt_forum">Forum</string>
+    <string name="txt_photos">Photos</string>
+
+    <string name="txt_new_chat">New Chat</string>
+    <string name="txt_new_file">New File</string>
+    <string name="txt_new_forum">New Forum</string>
+
+    <string name="txt_date_val">2018&#8211;03&#8211;10</string>
+    <string name="player_error">Error initializing YouTube player: %s</string>
+    <string name="seek_to">Jump To</string>
+    <string name="seek_to_hint">Seconds</string>
+
+    <string name="txt_stories">Stories</string>
+    <string name="txt_story">Story</string>
+    <string name="txt_new_story">New Story</string>
+    <string name="txt_edit_story">Edit Story</string>
+    <string name="txt_delete_story">Delete Story</string>
+    <string name="txt_new_story_info">Use the fields below to create a new story.</string>
+    <string name="txt_edit_story_info">Use the fields below to edit the story details.</string>
+    <string name="txt_title">Title</string>
+    <string name="txt_caption">Caption</string>
+    <string name="txt_summary">Summary</string>
+    <string name="txt_body">Body</string>
+    <string name="txt_source_url">Source URL</string>
+    <string name="txt_video_url">Video URL</string>
+    <string name="txt_docx_url">Document URL</string>
+    <string name="txt_update_story">Update Story</string>
+    <string name="txt_save_draft">Save Draft</string>
+    <string name="txt_submit">Submit</string>
+    <string name="txt_website">Website</string>
+
+    <string name="txt_manage_stories">Manage Stories</string>
+
+    <string name="txt_new_album">New Album</string>
+    <string name="txt_manage_photos">Manage Photos</string>
+
+    <string name="txt_new_entity">New Institution</string>
+    <string name="txt_manage_entities">Manage Institutions</string>
+
+    <string name="txt_new_note">New Note</string>
+    <string name="txt_manage_notes">Manage Notes</string>
+    <string name="txt_notes">Notes</string>
+
+    <string name="txt_new_scholl">New Scholarship</string>
+    <string name="txt_manage_scholls">Manage Scholarships</string>
+    <string name="txt_scholl_new_info">Use the fields below to submit a new scholarship opportunity.</string>
+    <string name="txt_scholl_edit_info">Use the fields below to update the details of this scholarship opportunity.</string>
+    <string name="txt_scholl_desc">A brief description here&#8230;</string>
+    <string name="txt_deadline">Deadline</string>
+
+    <string name="txt_new_job">New Career</string>
+    <string name="txt_manage_jobs">Manage Careers</string>
+    <string name="txt_job_desc">Job description here&#8230;</string>
+    <string name="txt_monthly_salary">Monthly Salary</string>
+    <string name="txt_amount">Amount</string>
+    <string name="txt_currency">Currency</string>
+    <string name="txt_job_info">Use the fields below to submit a new career and job opportunity.</string>
+    <string name="txt_job_edit">Use the fields below to modify and update the job or career details.</string>
+
+    <string name="txt_topic">Topic</string>
+    <string name="txt_topic_description">Brief description of the title</string>
+    <string name="txt_thread_info">
+        Use the form below to start a new conversation with the System Administrator.
+    </string>
+    <string name="txt_send_message">Send Message</string>
+
+    <string name="txt_details">Details</string>
+    <string name="txt_postal">Postal</string>
+    <string name="txt_entity_type">Institution Type</string>
+
+    <string name="txt_forums">Forums</string>
+    <string name="txt_theme">Theme</string>
+    <string name="txt_forums_join">Please select the forum to join</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="txt_dashboard">Dashboard</string>
+
+    <string name="txt_users">Users</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="txt_album_info">Use the fields provided below to create and upload album photos</string>
+    <string name="txt_album_edit">Use the fields provided below to update album details</string>
+    <string name="txt_album_add">Use the fields provided below to add new photos to the album</string>
+    <string name="txt_cover_image">Cover Image</string>
+    <string name="txt_album_title">Album Title</string>
+    <string name="txt_add_photos">Add Photos</string>
+    <string name="txt_add_new_photo">Click to add new photo</string>
+    <string name="txt_new_gallery">New Gallery</string>
+    <string name="txt_photo_caption">Photo Caption</string>
+    <string name="txt_edit_album">Edit Album</string>
+
+    <string name="txt_updates">Updates</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

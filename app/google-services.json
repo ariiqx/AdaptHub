@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "882094634885",
+    "firebase_url": "https://adapthub-33dd4.firebaseio.com",
+    "project_id": "adapthub-33dd4",
+    "storage_bucket": "adapthub-33dd4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882094634885:android:d6c48690507e0dd9",
+        "android_client_info": {
+          "package_name": "com.videdesk.mobile.adapthub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882094634885-i96manu0t645rl2odm9d20oa28nv1p91.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.videdesk.mobile.adapthub",
+            "certificate_hash": "19bf50e7805f829d43f25a2ce6cbe1e0d58826bb"
+          }
+        },
+        {
+          "client_id": "882094634885-vu9mgvkiumu2qd3ebi112nuf3ep4kdt9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgtm5r5smbTXrn2de82EzyfJRnFK8AQDQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882094634885-vu9mgvkiumu2qd3ebi112nuf3ep4kdt9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

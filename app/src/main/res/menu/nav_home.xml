@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="@string/txt_home" />
+        <item
+            android:id="@+id/nav_updates"
+            android:icon="@drawable/ic_access_alarm_black_24dp"
+            android:title="@string/txt_updates" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/txt_gallery" />
+        <item
+            android:id="@+id/nav_articles"
+            android:icon="@drawable/ic_chrome_reader_mode_black_24dp"
+            android:title="@string/txt_news" />
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_date_range_black_24dp"
+            android:title="@string/txt_events" />
+    </group>
+
+    <item android:title="@string/txt_opportunities">
+        <menu>
+
+            <item
+                android:id="@+id/nav_careers"
+                android:icon="@drawable/ic_business_center_black_24dp"
+                android:title="@string/txt_careers" />
+
+            <item
+                android:id="@+id/nav_scholarships"
+                android:icon="@drawable/ic_school_black_24dp"
+                android:title="@string/txt_scholarships" />
+
+            <item
+                android:id="@+id/nav_institutions"
+                android:icon="@drawable/ic_business_black_24dp"
+                android:title="@string/txt_institutions" />
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="theme_nodes">
+        <item>1000</item>
+        <item>2000</item>
+        <item>3000</item>
+        <item>4000</item>
+        <item>5000</item>
+        <item>6000</item>
+        <item>7000</item>
+        <item>8000</item>
+    </string-array>
+    <string-array name="theme_titles">
+        <item>Food</item>
+        <item>Water</item>
+        <item>Market</item>
+        <item>Ecosystem</item>
+        <item>Weather</item>
+        <item>Disaster</item>
+        <item>RiU</item>
+        <item>Gender</item>
+    </string-array>
+    <string-array name="theme_captions">
+        <item>Sustainable Food &amp; Livelihood</item>
+        <item>Smart Water</item>
+        <item>Market System</item>
+        <item>Ecosystem Management</item>
+        <item>Weather &amp; Irrigation System</item>
+        <item>Disaster &amp; Risk Reduction</item>
+        <item>Research into Use</item>
+        <item>Gender &amp; Society</item>
+    </string-array>
+
+    <string-array name="theme_images">
+        <item type="drawable">@drawable/img_food</item>
+        <item type="drawable">@drawable/img_water</item>
+        <item type="drawable">@drawable/img_market</item>
+        <item type="drawable">@drawable/img_eco</item>
+        <item type="drawable">@drawable/img_weather</item>
+        <item type="drawable">@drawable/img_risk</item>
+        <item type="drawable">@drawable/img_riu</item>
+        <item type="drawable">@drawable/img_gender</item>
+    </string-array>
+
+    <string-array name="theme_colors">
+        <item type="color">@color/colorFood</item>
+        <item type="color">@color/colorWater</item>
+        <item type="color">@color/colorMarket</item>
+        <item type="color">@color/colorEco</item>
+        <item type="color">@color/colorWeather</item>
+        <item type="color">@color/colorDisaster</item>
+        <item type="color">@color/colorRiu</item>
+        <item type="color">@color/colorGender</item>
+    </string-array>
+</resources>

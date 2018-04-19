@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:focusable="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="3dp"
+        android:elevation="4dp"
+        android:clickable="true"
+        android:focusable="true"
+        card_view:cardCornerRadius="3dp"
+        tools:ignore="UnusedAttribute">
+
+        <LinearLayout
+            android:id="@+id/theme_bg"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@color/colorPrimaryDark">
+
+            <ImageView
+                android:id="@+id/theme_image"
+                android:layout_width="match_parent"
+                android:layout_height="144dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_margin="6dp"
+                android:padding="6dp"
+                android:background="@color/colorWhite"
+                app:srcCompat="@drawable/ic_dashboard"
+                android:contentDescription="@string/app_title"/>
+
+            <TextView
+                android:id="@+id/theme_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:clickable="true"
+                android:focusable="true"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="22sp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

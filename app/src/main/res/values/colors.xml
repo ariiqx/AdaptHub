@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#090909</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#e99608</color>
+
+    <!--
+    <color name="colorPrimary">#036007</color>
+    <color name="colorPrimaryDark">#034905</color>
+    <color name="colorAccent">#e99608</color>
+    -->
+
+    <color name="colorPressed">#e9761e</color>
+    <color name="colorRipple">#e99608</color>
+
+    <color name="colorSuccess">#109104</color>
+    <color name="colorWarning">#E91E63</color>
+    <color name="colorDanger">#e40508</color>
+    <color name="colorInfo">#037ac5</color>
+
+    <color name="colorPrimaryLight">#038709</color>
+    <color name="colorChatIn">#bcfaba</color>
+    <color name="colorChatOut">#f3f9bf</color>
+    <color name="colorShade">#999999</color>
+    <color name="colorDark">#121212</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorFloor">#F1F7F7</color>
+    <color name="colorTitle">#4c4c4c</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorLine">#EEEEEE</color>
+
+    <color name="colorFood">#e24b05</color>
+    <color name="colorWater">#054c81</color>
+    <color name="colorMarket">#892402</color>
+    <color name="colorEco">#036007</color>
+    <color name="colorWeather">#bfa903</color>
+    <color name="colorDisaster">#8b020b</color>
+    <color name="colorRiu">#3b0483</color>
+    <color name="colorGender">#8b0374</color>
+    <color name="colorNews">#b60407</color>
+
+</resources>

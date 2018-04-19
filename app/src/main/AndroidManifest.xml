@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.videdesk.mobile.adapthub">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- HOME ACTIVITY -->
+        <activity
+            android:name=".activity.HomeActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- CROPPER ACTIVITY -->
+        <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity" />
+
+        <!-- ABOUT ACTIVITY -->
+        <activity
+            android:name=".activity.AboutActivity"
+            android:label="@string/txt_about"
+            android:parentActivityName=".activity.HomeActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.videdesk.mobile.adapthub.activity.HomeActivity" />
+        </activity>
+
+        <!-- START ACTIVITY -->
+
+
+        <!-- LOGIN ACTIVITY -->
+
+
+        <!-- REGISTER ACTIVITY -->
+
+
+        <!-- RESET ACTIVITY -->
+
+
+        <!-- PROFILE ACTIVITY -->
+        <activity
+            android:name=".activity.ProfileActivity"
+            android:label="@string/txt_profile"
+            android:parentActivityName=".activity.HomeActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.videdesk.mobile.adapthub.activity.HomeActivity" />
+        </activity>
+
+        <!-- NOTES ACTIVITY -->
+        <activity
+            android:name=".activity.NotesActivity"
+            android:label="@string/txt_notes"
+            android:parentActivityName=".activity.HomeActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.videdesk.mobile.adapthub.activity.HomeActivity" />
+        </activity>
+
+        <!-- MESSAGES ACTIVITY -->
+        <activity
+            android:name=".activity.MessagesActivity"
+            android:label="@string/txt_messages"
+            android:parentActivityName=".activity.HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.videdesk.mobile.adapthub.activity.HomeActivity" />
+        </activity>
+
+        <!-- CHATS ACTIVITY -->
+        <activity
+            android:name=".activity.ChatsActivity"
+            android:label="@string/txt_chats"
+            android:parentActivityName=".activity.MessagesActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.videdesk.mobile.adapthub.activity.MessagesActivity" />
+        </activity>
+
+        <!-- NEW CHAT ACTIVITY -->
+        <activity
+            android:name=".activity.ChatActivity"
+            android:label="@string/txt_new_chat"
+            android:parentActivityName=".activity.MessagesActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.videdesk.mobile.adapthub.activity.MessagesActivity" />
+        </activity>
+
+        <!-- ENTITIES ACTIVITY -->
+        <activity
+            android:name=".activity.EntitiesActivity"
+            android:label="@string/txt_institutions"
+            android:parentActivityName=".activity.HomeActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.videdesk.mobile.adapthub.activity.HomeActivity" />
+        </activity>
+
+        <!-- ENTITY ACTIVITY -->
+        <activity
+            android:name=".activity.EntityActivity"
+            android:label="@string/txt_details"
+            android:parentActivityName=".activity.EntitiesActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.videdesk.mobile.adapthub.activity.EntitiesActivity" />
+        </activity>
+
+        <!-- THEME ACTIVITY -->
+        <activity
+            android:name=".activity.StoriesActivity"
+            android:label="@string/txt_stories"
+            android:parentActivityName=".activity.HomeActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.videdesk.mobile.adapthub.activity.HomeActivity" />
+        </activity>
+
+        <!-- STORY ACTIVITY -->
+        <activity
+            android:name=".activity.StoryActivity"
+            android:label="@string/txt_story"
+            android:parentActivityName=".activity.StoriesActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.videdesk.mobile.adapthub.activity.StoriesActivity" />
+        </activity>
+
+        <!-- FORUMS ACTIVITY -->
+        <activity
+            android:name=".activity.ForumsActivity"
+            android:label="@string/txt_forums"
+            android:parentActivityName=".activity.MessagesActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.videdesk.mobile.adapthub.activity.MessagesActivity" />
+        </activity>
+
+        <!-- PHOTOS ACTIVITY -->
+        <activity
+            android:name=".activity.PhotosActivity"
+            android:label="@string/txt_photos"
+            android:parentActivityName=".activity.HomeActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.videdesk.mobile.adapthub.activity.HomeActivity" />
+        </activity>
+
+        <!-- MAIN ACTIVITY -->
+
+
+        <!-- NEW STORY ACTIVITY -->
+        <activity
+            android:name=".activity.StoryNewActivity"
+            android:label="@string/txt_new_story"
+            android:parentActivityName=".activity.StoriesActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.videdesk.mobile.adapthub.activity.StoriesActivity" />
+        </activity>
+
+        <!-- EDIT STORY ACTIVITY -->
+        <activity
+            android:name=".activity.StoryEditActivity"
+            android:label="@string/txt_edit_story"
+            android:parentActivityName=".activity.StoryActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.videdesk.mobile.adapthub.activity.StoryActivity" />
+        </activity>
+
+        <!-- DELETE STORY ACTIVITY -->
+        <activity
+            android:name=".activity.StoryManActivity"
+            android:label="@string/txt_delete_story"
+            android:parentActivityName=".activity.StoryActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.videdesk.mobile.adapthub.activity.StoryActivity" />
+        </activity>
+
+        <!-- SCHOLARSHIPS ACTIVITY -->
+        <activity
+            android:name=".activity.SchollsActivity"
+            android:label="@string/txt_scholarships"
+            android:parentActivityName=".activity.HomeActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.videdesk.mobile.adapthub.activity.HomeActivity" />
+        </activity>
+
+        <!-- SCHOLARSHIP ACTIVITY -->
+        <activity
+            android:name=".activity.SchollActivity"
+            android:label="@string/txt_scholarships"
+            android:parentActivityName=".activity.SchollsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.videdesk.mobile.adapthub.activity.SchollsActivity" />
+        </activity>
+
+        <!-- NEW SCHOLARSHIP ACTIVITY -->
+        <activity
+            android:name=".activity.SchollNewActivity"
+            android:label="@string/txt_new_scholl"
+            android:parentActivityName=".activity.SchollsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.videdesk.mobile.adapthub.activity.SchollsActivity" />
+        </activity>
+
+        <!-- EDIT SCHOLARSHIP ACTIVITY -->
+        <activity
+            android:name=".activity.SchollEditActivity"
+            android:label="@string/txt_new_scholl"
+            android:parentActivityName=".activity.SchollActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.videdesk.mobile.adapthub.activity.SchollActivity" />
+        </activity>
+
+        <!-- DASHBOARD ACTIVITY -->
+        <activity
+            android:name=".activity.AdminActivity"
+            android:label="@string/txt_dashboard"
+            android:parentActivityName=".activity.ProfileActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.videdesk.mobile.adapthub.activity.ProfileActivity" />
+        </activity>
+
+        <!-- CAREERS ACTIVITY -->
+        <activity
+            android:name=".activity.JobsActivity"
+            android:label="@string/txt_careers"
+            android:parentActivityName=".activity.HomeActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.videdesk.mobile.adapthub.activity.HomeActivity" />
+        </activity>
+
+        <!-- CAREER ACTIVITY -->
+        <activity
+            android:name=".activity.JobActivity"
+            android:label="@string/txt_careers"
+            android:parentActivityName=".activity.JobsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.videdesk.mobile.adapthub.activity.JobsActivity" />
+        </activity>
+
+        <!-- NEW CAREER ACTIVITY -->
+        <activity
+            android:name=".activity.JobNewActivity"
+            android:label="@string/txt_new_job"
+            android:parentActivityName=".activity.JobsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.videdesk.mobile.adapthub.activity.JobsActivity" />
+        </activity>
+
+        <!-- NEW GALLERY ACTIVITY -->
+        <activity
+            android:name=".activity.PhotosNewActivity"
+            android:label="@string/txt_new_gallery"
+            android:parentActivityName=".activity.StoryActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.videdesk.mobile.adapthub.activity.StoryActivity" />
+        </activity>
+
+        <!-- EDIT CAREER ACTIVITY -->
+        <activity android:name=".activity.JobEditActivity" />
+
+        <!-- BROWSE ACTIVITY -->
+        <activity
+            android:name=".activity.BrowseActivity"
+            android:label="@string/txt_browse"
+            android:parentActivityName=".activity.StoryActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.videdesk.mobile.adapthub.activity.StoryActivity" />
+        </activity>
+
+        <!-- ADD PHOTO ACTIVITY -->
+        <activity
+            android:name=".activity.PhotosAddActivity"
+            android:label="@string/txt_add_photos"
+            android:parentActivityName=".activity.HomeActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.videdesk.mobile.adapthub.activity.HomeActivity" />
+        </activity>
+
+        <!-- EDIT ALBUM ACTIVITY -->
+        <activity
+            android:name=".activity.PhotosEditActivity"
+            android:label="@string/txt_edit_album"
+            android:parentActivityName=".activity.PhotosActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.videdesk.mobile.adapthub.activity.PhotosActivity" />
+        </activity>
+
+        <!-- NEW ENTITY ACTIVITY -->
+        <activity
+            android:name=".activity.EntitiesNewActivity"
+            android:label="@string/txt_new_entity"
+            android:parentActivityName=".activity.HomeActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.videdesk.mobile.adapthub.activity.HomeActivity" />
+        </activity>
+        <activity android:name=".activity.EventActivity" />
+        <activity
+            android:name=".activity.StartActivity"
+            android:label="@string/txt_welcome" />
+        <activity android:name=".activity.LoginActivity" />
+        <activity android:name=".activity.RegisterActivity" />
+        <activity android:name=".activity.ResetActivity" />
+
+        <!-- EDIT PROFILE ACTIVITY -->
+        <activity android:name=".activity.EditActivity"
+            android:label="@string/txt_edit_profile"
+            android:parentActivityName=".activity.ProfileActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.videdesk.mobile.adapthub.activity.ProfileActivity" />
+        </activity>
+    </application>
+
+</manifest>
